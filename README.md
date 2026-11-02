@@ -24,6 +24,14 @@ npm install
 npm run dev
 ```
 
+## Publicação
+
+O GitHub Actions publica esta vitrine no GitHub Pages a cada atualização da branch `main`:
+
+https://neysidi40-debug.github.io/catalogo-digital/
+
+A Área da equipe está em `/admin/`. O acesso é demonstrativo e não protege informações em uma página pública.
+
 ## Acesso administrativo demonstrativo
 
 Use o atalho **Área da equipe** no cabeçalho da home ou acesse `/admin`. A senha padrão da demonstração é `zoo2026`. Para trocá-la localmente, copie `.env.example` para `.env.local`, altere `VITE_ADMIN_PASSWORD` e reinicie o Vite. O login é pedido novamente ao recarregar a página.
